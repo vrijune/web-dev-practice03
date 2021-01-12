@@ -5,32 +5,34 @@ import java.io.Serializable;
 public class Dinosaur implements Serializable {
 
     //TODO: Your code for 1A) here
-private String Name;
-private String Rating;
-private String Notes;
+private String name;
+private String rating;
+private String notes;
+public Dinosaur() {};
+
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
 
     public String getRating() {
-        return Rating;
+        return rating;
     }
 
     public void setRating(String rating) {
-        Rating = rating;
+        this.rating = rating;
     }
 
     public String getNotes() {
-        return Notes;
+        return notes;
     }
 
     public void setNotes(String notes) {
-        Notes = notes;
+        this.notes = notes;
     }
 
 

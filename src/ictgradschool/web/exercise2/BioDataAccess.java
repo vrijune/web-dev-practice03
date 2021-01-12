@@ -5,7 +5,7 @@ import java.util.List;
 
 public class BioDataAccess {
 
-    public List<Biography> getBiographies(){
+    public static List<Biography> getBiographies(){
         ArrayList<Biography> biographies = new ArrayList();
 
         biographies.add(new Biography("Bill Gates", "William Henry Gates III is an American business magnate, software developer, and philanthropist. He is best known as the co-founder of Microsoft Corporation.", 65));
