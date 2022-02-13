@@ -3,8 +3,7 @@
 # Question One 
 
 Question one uses an HTML form within the `'dinosaur-form.jsp'` file. 
-
-You will complete a Servlet, Java object (JavaBean) and JSP page to display the information submitted from the form. 
+Complete a Servlet, Java object (JavaBean) and JSP page to display the information submitted from the form. 
 
 This is what the form should look like when it is opened in your web browser: 
 
